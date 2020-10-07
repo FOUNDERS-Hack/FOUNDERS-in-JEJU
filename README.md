@@ -1,3 +1,5 @@
+![img-Wall-FoJ](./img/Wall_FoJ.png)
+
 # FOUNDERS in JEJU
 FOUNDERS는 대학생 대상 IT교육을 통한 진로탐색 프로그램입니다.
 전공을 막론하고 블록체인, 인공지능 등 4차 산업의 새로운 기술을 경험하고,
