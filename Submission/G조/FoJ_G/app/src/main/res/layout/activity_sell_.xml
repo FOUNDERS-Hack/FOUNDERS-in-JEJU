@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Sell_Activity">
+
+    <Button
+        android:id="@+id/buttontohome"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/box3"
+        android:fontFamily="@font/nanumbarunb"
+        android:text="등록하기"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="140dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="유통기한"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="576dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="정보 저장 후 수정하실 수 없으며, 허위사실 입력 시 불이익을 받을 수 있습니다."
+        android:textColor="#131313"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="564dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="* 해당 서비스는 블록체인을 이용하여 투명한 거래를 지향합니다."
+        android:textColor="#131313"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="165dp"
+        android:layout_height="337dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fig_reg" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="112dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="제품명"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="140dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="희망가격"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName23"
+        android:layout_width="112dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="YYMMDD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName22"
+        android:layout_width="112dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="YYMMDD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="88dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="88dp"
+        android:foreground="@drawable/add"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="112dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="0원"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="140dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="구매일자"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="592dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="정보 확인 후 진행해주세요."
+        android:textColor="#131313"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="152dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="지역"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/box5"
+        android:fontFamily="@font/nanumbarunb"
+        android:text="수정하기"
+        android:textColor="#599F76"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="112dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="00구00동"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="88dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="88dp"
+        android:foreground="@drawable/add"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="148dp"
+        android:fontFamily="@font/nanumbarunr"
+        android:text="제품명"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="314dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="472dp"
+        android:ems="10"
+        android:hint="제품상세설명"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="411dp"
+        android:layout_height="66dp"
+        android:background="@color/top_bar"
+        android:fontFamily="@font/nanumbarunb"
+        android:gravity="center"
+        android:text="제품 등록"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

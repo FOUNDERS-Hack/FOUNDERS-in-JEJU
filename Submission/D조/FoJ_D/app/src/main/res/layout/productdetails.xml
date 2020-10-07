@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="과일 >>"
+                        android:fontFamily="@font/applesdgothicneob"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="제주 감귤"
+                        android:fontFamily="@font/applesdgothicneob"
+                        android:textSize="30dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="원산지 : 제주도 제주시"
+                        android:fontFamily="@font/applesdgothicneob"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="사업체 : 제주 D 농가"
+                        android:fontFamily="@font/applesdgothicneob"
+                        android:textSize="16dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="소속 : 제주 D 협동조합"
+                        android:fontFamily="@font/applesdgothicneob"
+                        android:textSize="16dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="31,500원"
+                            android:fontFamily="@font/applesdgothicneob"
+                            android:textSize="30dp"
+                            android:textColor="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="(10% OFF)"
+                            android:fontFamily="@font/applesdgothicneob"
+                            android:textSize="30dp"
+                            android:textColor="#2196F3"/>
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="315dp"
+                    android:layout_marginTop="75dp"
+                    android:background="@drawable/heart"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="135dp"
+                    android:background="@drawable/rating"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="164dp"
+                    android:text="상품 리뷰 102건  >>"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textSize="14dp"/>
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/dotline"/>
+                <ImageView
+                    android:layout_width="345dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="340dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/iconhlb"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="560dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/circles"/>
+                <Button
+                    android:id="@+id/btnsave"
+                    android:text="VP :: 특산품 정보 확인"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="600dp"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginLeft="45dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/btn"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn"/>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="260dp"
+                    android:layout_marginLeft="82dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1kg"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textSize="18dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="85dp"
+                        android:text="3kg"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textSize="18dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="82dp"
+                        android:text="5kg"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btnbuy"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="670dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/acbtn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="700dp"
+                    android:layout_marginLeft="190dp"
+                    android:text="구매"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

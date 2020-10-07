@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingLeft="120dp"
+            android:paddingTop="80dp"
+            android:text="ICX 1002,39"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingLeft="155dp"
+            android:paddingTop="145dp"
+            android:text="acccount details >"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/btnprfl"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/acbtn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="32dp"
+                android:text="계정"
+                android:fontFamily="@font/applesdgothicneoeb"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/btnprdct"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/acbtn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="157dp"
+                android:layout_marginTop="32dp"
+                android:text="상품 관리"
+                android:fontFamily="@font/applesdgothicneoeb"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/btnordr"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/acbtn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="157dp"
+                android:layout_marginTop="32dp"
+                android:text="주문 내역"
+                android:fontFamily="@font/applesdgothicneoeb"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/btnpymnt"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/acbtn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="157dp"
+                android:layout_marginTop="32dp"
+                android:text="결제 관리"
+                android:fontFamily="@font/applesdgothicneoeb"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: foundation.icon:icon-sdk:1.0.0@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/foundation.icon/icon-sdk/1.0.0/6317a8a775c252061e1faa8094309a12da133230/icon-sdk-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/foundation.icon/icon-sdk/1.0.0/4319062cdd189352499cf7884fdf090d0f885eb2/icon-sdk-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/foundation.icon/icon-sdk/1.0.0/3deb27194672b1e1bf42237f14b8cc7fb5cd2a6f/icon-sdk-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
