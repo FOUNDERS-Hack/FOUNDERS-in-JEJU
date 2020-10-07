@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="상품 관리"
+            android:fontFamily="@font/applesdgothicneoeb"
+            android:textSize="45sp"
+            android:textColor="#FFFFFF"
+            android:gravity="left"
+            android:layout_marginBottom="30dp"/>
+        <Button
+            android:id="@+id/btnplus"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/pluss"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnhlb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:background="@drawable/listblank">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/hallabong"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="제주 한라봉"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textColor="#000000"/>
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="95dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/pencil"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="등록 일자 : 2020/09/01"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/dotline"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="주문건수                                            198 건"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="상품 리뷰                                             51 건"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="가격                                            50,000원"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:background="@drawable/listblank">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/jjgg"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="제주 감귤"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textColor="#000000"/>
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="108dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/pencil"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="등록 일자 : 2020/09/05"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/dotline"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="주문건수                                            325 건"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="상품 리뷰                                            102 건"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="가격                                              35,000원"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnhlbc"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        android:background="@drawable/listblank">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/yuja"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="제주 한라봉 청"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textColor="#000000"/>
+                <Button
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/pencil"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="등록 일자 : 2020/10/08"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/dotline"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="주문건수                                               0 건"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="상품 리뷰                                              0 건"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="가격                                              15,500원"
+                android:textSize="10dp"
+                android:fontFamily="@font/applesdgothicneob"
+                android:textColor="#8C8C8C"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

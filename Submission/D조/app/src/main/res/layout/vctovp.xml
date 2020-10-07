@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="420dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="40dp"
+                    android:text="VP 발급"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textSize="30dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="VC 정보 중 VP에 포함시켜"
+                    android:textColor="#000000"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="35dp"
+                    android:text="소비자들에게 공개할 정보를 선택하세요"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:elevation="6dp"
+                android:orientation="vertical">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="60dp"
+                    android:id="@+id/LV1"
+                    android:textSize="10dp"
+                    android:choiceMode="multipleChoice"/>
+                <Button
+                    android:id="@+id/btnVP"
+                    android:layout_width="380dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/acbtn"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:text="VP 발급"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

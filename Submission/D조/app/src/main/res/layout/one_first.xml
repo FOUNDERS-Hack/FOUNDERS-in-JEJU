@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/appicon"
+            />
+     </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/cc" />
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ccc" />
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/cccc" />
+
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="330dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/applesdgothicneob"
+            android:text="'방방곡곡'은 블록체인 기반 지역 특산물 직거래 서비스로"
+            android:textSize="9dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="465dp"
+            android:fontFamily="@font/applesdgothicneoeb"
+            android:text="철저히 검증된 상품을 제공하여 안전한 거래를 보장합니다"
+            android:textSize="9dp"></TextView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tologin"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="379dp"
+                android:background="@drawable/loginbtn" />
+
+            <Button
+                android:id="@+id/toreg_con"
+                android:layout_width="150dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/regcusbtn" />
+
+            <Button
+                android:id="@+id/toreg_sel"
+                android:layout_width="145dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/regselbtn" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+
