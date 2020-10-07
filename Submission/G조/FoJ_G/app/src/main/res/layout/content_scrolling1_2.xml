@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Shop2Activity"
+    tools:showIn="@layout/activity_shop2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            top logo-->
+
+            <LinearLayout
+                android:layout_width="389dp"
+                android:layout_height="155dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/chgview"
+                    android:layout_width="389dp"
+                    android:layout_height="155dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/shop_toplogo" />
+            </LinearLayout>
+
+
+            <!--            놀부 부대찌개-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Btnbu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shop_item_1_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shop_item_1_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shop_item_1_1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shop_item_1_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/shop_item_1_3" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".app2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bu" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="450dp"
+        android:layout_height="14dp"
+        android:background="@drawable/box2"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/btnbuy"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/box3"
+        android:text="구매하기"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toEndOf="@+id/Btnask" />
+
+    <Button
+        android:id="@+id/Btnask"
+        android:layout_width="107dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/box5"
+        android:text="문의하기"
+        android:textColor="#599F76"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="170dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/foodinfo4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="263dp"
+        android:layout_height="165dp"
+        android:src="@drawable/foodinfo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/foodinfo2"
+        app:layout_constraintBottom_toBottomOf="@+id/btnbuy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:src="@drawable/foodinfo3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.881" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

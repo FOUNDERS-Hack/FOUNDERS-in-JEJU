@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foj_project">
+    <!-- 인터넷 권한 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".message2"/>
+        <activity android:name=".buy_final" />
+        <activity android:name=".verify1" />
+        <activity android:name=".DonationActivity" />
+        <activity android:name=".CompleteDonationActivity" />
+        <activity android:name=".buy" />
+        <activity android:name=".personalActivity" />
+        <activity android:name=".Sell_Activity" />
+        <activity
+            android:name=".login.EmailLoginActivity"
+            android:label="@string/title_activity_email_login" />
+        <activity android:name=".app2" />
+        <activity
+            android:name=".Payment2Activity"
+            android:label="@string/title_activity_payment2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shop1Activity"
+            android:label="@string/title_activity_shop1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shop2Activity"
+            android:label="@string/title_activity_shop2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
