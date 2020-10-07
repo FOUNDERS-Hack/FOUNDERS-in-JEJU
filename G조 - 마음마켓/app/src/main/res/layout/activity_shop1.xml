@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    tools:context=".Shop1Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageView
+            android:id="@+id/toolbar"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/shop_topbar"
+            android:scaleType="centerInside" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_scrolling1" />
+
+    <!--    하단 바-->
+    <LinearLayout
+        android:id="@+id/navibar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/bottomNavBar">
+
+        <TextView
+            android:id="@+id/shop1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_work_24"
+            android:drawablePadding="0dp"
+            android:fontFamily="@font/nanumbarunb"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Shop"
+            android:textColor="@drawable/navibar"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/payment2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_search_24"
+            android:drawablePadding="0dp"
+            android:fontFamily="@font/nanumbarunb"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Verify"
+            android:textColor="@drawable/navibar"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/sell3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_add_shopping_cart_24"
+            android:drawablePadding="0dp"
+            android:fontFamily="@font/nanumbarunb"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Sell"
+            android:textColor="@drawable/navibar"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/mypage4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_person_24"
+            android:drawablePadding="0dp"
+            android:fontFamily="@font/nanumbarunb"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="My Page"
+            android:textColor="@drawable/navibar"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/donation5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_local_atm_24"
+            android:drawablePadding="0dp"
+            android:fontFamily="@font/nanumbarunb"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Donation"
+            android:textColor="@drawable/navibar"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
