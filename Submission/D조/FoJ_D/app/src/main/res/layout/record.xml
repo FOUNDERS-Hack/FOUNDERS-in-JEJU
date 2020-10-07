@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/gradient">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="내역"
+                android:fontFamily="@font/applesdgothicneoeb"
+                android:textSize="45dp"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="40dp"
+                android:paddingTop="40dp"
+                android:gravity="left"
+                android:layout_marginBottom="15dp"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="450dp"
+                    android:background="@drawable/blankver"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="IN ) 500방울                   잔액 4,500방울"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="일시 : 2020/10/08 19:00   계좌간편결제"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textColor="#AEAEAE"/>
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/dotline"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="OUT ) 1,000방울            잔액 4,000방울"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="일시 : 2020/10/06 19:00   전복세트 구매"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textColor="#AEAEAE"/>
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/dotline"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="IN ) 10,000방울             잔액 3,000방울"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="일시 : 2020/10/06 18:00   계좌간편결제"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textColor="#AEAEAE"/>
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/dotline"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="OUT ) 500방울               잔액 2,000방울"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:text="일시 : 2020/10/05 18:00     한라봉 결제"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/applesdgothicneoeb"
+                        android:textColor="#AEAEAE"/>
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="40dp"
+                        android:background="@drawable/dotline"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginLeft="150dp"
+                            android:text="더보기"
+                            android:textSize="15dp"
+                            android:fontFamily="@font/applesdgothicneoeb"
+                            android:textColor="#000000"/>
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:background="@drawable/down"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/btnok"
+                    android:layout_width="370dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/acbtn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="43dp"
+                    android:layout_marginLeft="170dp"
+                    android:text="확인"
+                    android:fontFamily="@font/applesdgothicneoeb"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
