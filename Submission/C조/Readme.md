@@ -2,13 +2,15 @@
 
 ###  블록체인 기반 DID를 활용한 포트폴리오 서비스
 
+- ####  [발표자료](https://github.com/FOUNDERS-Hack/FOUNDERS-in-JEJU/blob/main/Submission/C%EC%A1%B0/C%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf) 및 [기획서](https://github.com/FOUNDERS-Hack/FOUNDERS-in-JEJU/blob/main/Submission/C%EC%A1%B0/C%EC%A1%B0_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx)
 
+- ####  개발환경 : VSCode, Truffle , React-Native, Expo...
 
 ### User View
 
-- [x] 포트폴리오 추가(인증 미인증 2가지) 및 검색 기능 
+- [x] 포트폴리오 추가(인증, 미인증 2가지) 및 검색 기능 
 
-- [x] 로그인 및 회원가입 
+- [x] 로그인 및 회원가입(Address,Key) 
 
   ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/39898938/95290785-17662f00-08a9-11eb-8404-714944f93ace.gif)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/39898938/95290825-306ee000-08a9-11eb-9be5-c040a1aedf80.gif)  
 
