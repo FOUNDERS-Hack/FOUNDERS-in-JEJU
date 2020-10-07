@@ -2,7 +2,7 @@
 
 ###  블록체인 기반 DID를 활용한 포트폴리오 서비스
 
-- ####  [발표자료](https://github.com/FOUNDERS-Hack/FOUNDERS-in-JEJU/blob/main/Submission/C%EC%A1%B0/C%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf) 및 [기획서](https://github.com/FOUNDERS-Hack/FOUNDERS-in-JEJU/blob/main/Submission/C%EC%A1%B0/C%EC%A1%B0_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx)
+- ####  [발표자료](https://github.com/FOUNDERS-Hack/FOUNDERS-in-JEJU/blob/main/Submission/C%EC%A1%B0/C%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/C%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf) 및 [기획서](https://github.com/FOUNDERS-Hack/FOUNDERS-in-JEJU/blob/main/Submission/C%EC%A1%B0/C%EC%A1%B0_%EA%B8%B0%ED%9A%8D%EC%84%9C.docx)
 
 - ####  개발환경 : VSCode, Truffle , React-Native, Expo...
 
